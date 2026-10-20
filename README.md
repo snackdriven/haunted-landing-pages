@@ -1,13 +1,12 @@
-# All my haunts
+# Archived deployment reference
 
-Password-encrypted static landing page for `landing.snackdriven.com`, hosted on GitHub Pages.
-This public repository contains only encrypted HTML and the deployment workflow.
-Editable content and encryption tooling stay in the private `snackdriven/haunted-landing` repository.
-No ChatGPT hosting, login, source repository, or runtime is used.
+The landing site now lives at [landing.snackdriven.com](https://landing.snackdriven.com/)
+and is deployed by Cloudflare Pages from the single private
+[haunted-landing](https://github.com/snackdriven/haunted-landing) repository.
 
-The page is encrypted with StatiCrypt 3.5.4. Enter the page password to decrypt it in your browser.
-The password is never sent to a server or saved by the page. Reload or click Lock this page to lock it.
+This repository is retired. GitHub Pages and its deployment workflow are disabled;
+the encrypted history remains available as an archived rollback reference. Do not
+publish new changes here. No passwords or editable private source are stored here.
 
-## Commits and releases
-
-See [RELEASE.md](RELEASE.md) for Commitizen commands, SemVer and changelog maintenance.
+The migration preserved the existing encrypted page byte-for-byte, so the page
+password did not change. The custom domain no longer uses ChatGPT hosting or sign-in.

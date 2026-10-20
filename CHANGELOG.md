@@ -7,6 +7,12 @@ and numbered releases follow [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ## [Unreleased]
 
+### Changed
+
+- Retire this deployment repository after consolidation into the private source
+  repository and independent Cloudflare Pages hosting. Preserve encrypted history.
+
+
 ### Added
 
 - Commitizen commit prompts, SemVer release preparation and CI checks for commit titles and curated release notes.
