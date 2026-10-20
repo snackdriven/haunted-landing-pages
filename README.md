@@ -7,3 +7,7 @@ No ChatGPT hosting, login, source repository, or runtime is used.
 
 The page is encrypted with StatiCrypt 3.5.4. Enter the page password to decrypt it in your browser.
 The password is never sent to a server or saved by the page. Reload or click Lock this page to lock it.
+
+## Commits and releases
+
+See [RELEASE.md](RELEASE.md) for Commitizen commands, SemVer and changelog maintenance.
